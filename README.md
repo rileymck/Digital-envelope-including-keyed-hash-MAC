@@ -81,7 +81,9 @@ Enter: testing.txt
 
 ## Notes
 - If you use the command below itll show you the first 20 lines of the binary contents of message.kmk in both hex and ASCII, whitch helps inspect/debug the structure of the encrypted message
-''' bash
+```bash
 hexdump -C message.kmk | head -n 20
-'''
+
+```
+
 - You can make a new text file in Sender/Reciever to encrypt/decrypt a different message, instead of "testing.txt"
